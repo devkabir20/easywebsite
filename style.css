@@ -1,0 +1,255 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+#header-section{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background: linear-gradient(to right, #a517ba, #5f1782);
+}
+.navbar-brand img{
+    height: 50px;
+    width: 175px;
+}
+.navbar-nav li{
+    padding: 0 20px;
+} 
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.fa-bars{
+    color: #ddd;
+}
+.navbar-toggler{
+    color: #ddd !important;
+}
+
+/*Banner Section*/
+
+#banner{
+    background: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+.promo-title{
+    font-style: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-top: 100px;
+}
+.play-btn{
+    margin: 20px;
+    height: 50px;
+}
+#banner a{
+    
+    color: #ddd;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+.wave-img{
+    width: 100%;
+}
+
+/*Service Section*/
+#service-section{
+    padding-top: 80px;
+}
+.service-img{
+    width: 125px;
+    margin-bottom: 20px;
+}
+.services{
+    text-align: center;
+}
+.services h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.services p{
+    font-size: 15px;
+    color: #b1b1b3;
+}
+.service-title::before {
+    content: '';
+    height: 5px;
+    width: 250px;
+    background: #8888f7;
+    display: block;
+    margin: auto;
+    transform: translateY(55px);
+}
+#service-section .btn-primary{
+    background: linear-gradient(to right, #a517ba, #5f1782);
+    border: none;
+    border-radius: 20px;
+}
+/* about us*/
+#about-us{
+    background: #fff;
+    padding-top: 30px;
+}
+
+.about-title{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+.about-title::before {
+    content: '';
+    height: 5px;
+    width: 250px;
+    background: #8888f7;
+    display: block;
+    margin: auto;
+    transform: translateY(55px);
+}
+.how-work-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 8%;
+}
+
+.how-work-lists li{
+    margin-bottom: 5px
+}
+.about-us-img img{
+    margin-top: 50px;
+}
+
+/* tastomonial section*/
+#tastomonial {
+    margin-top: 100px;
+}
+.tastomonial-title{
+    text-transform: uppercase;
+} 
+.tastomonial-title::before {
+    content: '';
+    height: 5px;
+    width: 250px;
+    background: #8888f7;
+    display: block;
+    margin: auto;
+    transform: translateY(55px);
+} 
+.tastomonials{
+    border-left: 4px solid #a517ba;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.tastomonials p{
+    font-size:15px;
+}
+.tastomonials img{height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 0 10px;}
+.tastomonials .user-detials{
+    display: inline-block;
+    font-size: 18px;
+
+}
+/*Social Media Section*/
+#social-media{
+    margin-top: 50px;
+    background: #ddd;
+}
+.social-media-title{
+    text-transform: uppercase;
+}
+.social-media-title::before {
+    content: '';
+    height: 5px;
+    width: 250px;
+    background: #8888f7;
+    display: block;
+    margin: auto;
+    transform: translateY(55px);
+} 
+.social-icon {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 120px;
+}
+.social-icon a{
+    text-decoration: none;
+    margin: 40px;
+}
+.social-icon a i{
+    transition: .4s;
+}
+.social-icon a i:hover{
+    color: #8888f7;
+    transform: translateY(10px);
+}
+/*--footer section--*/
+#footer-section{
+    background: linear-gradient(to right, #a517ba, #5f1782);
+}
+.footer-img{
+    padding-top: 70px;
+}
+.footer-logo{
+
+}
+.footer-logo img{
+    height: 60px;
+}
+.footer-logo P{
+    width: 80%;
+    color: #ddd;
+}
+.footer-contact{
+    color: #fff;
+}
+.footer-contact p a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer-contact p i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.newsletter{}
+.newsletter p{
+    color: #ddd;
+    text-transform: capitalize;
+}
+.newsletter input{
+    margin-bottom: 20px;
+    height: 50px;
+}
+.newsletter .btn{
+    background: linear-gradient(to right, #a517ba, #5f1782);
+    border: 1px solid #111;
+    border-radius: 20px;
+}
+.crft{
+
+}
+.crft hr{
+    color: #ddd;
+}
+.crft p{
+    word-spacing: 2px;
+    color: #ddd;
+    text-transform: capitalize;
+}
+
+.crft p a{
+    color: #47eda0;
+    text-decoration: none;
+    font-size: 20px;
+}
